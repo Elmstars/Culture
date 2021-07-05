@@ -1,0 +1,85 @@
+<resources>
+
+  <array name="foods_image">
+    <item></item>
+  </array>
+
+  <array name="street_image">
+    <item>@drawable/street_1</item>
+    <item>@drawable/street_2</item>
+    <item>@drawable/street_3</item>
+    <item>@drawable/street_4</item>
+  </array>
+
+  <string name="app_name">Culture</string>
+  <string name="title_placeholder">Title</string>
+  <string name="news_placeholder">Food</string>
+  <string name="foods_info_placeholder">Here is some news</string>
+  <string name="foods_detail_placeholder">08051005</string>
+  <string name="street_title_placeholder">bx</string>
+  <string name="street_detail_placeholder">wx</string>
+  <string name="menu_learn">街巷</string>
+  <string name="menu_home">美食</string>
+  <string name="menu_about">关于</string>
+  <string name="text_about">本软件仅用于本次作业，以家乡美食为主题，图片和文字均来源于网络，非商用。</string>
+
+  <string-array name="foods_title">
+    <item>food1</item>
+    <item>food2</item>
+    <item>food3</item>
+    <item>food4</item>
+    <item>food5</item>
+    <item>food6</item>
+  </string-array>
+
+  <string-array name="foods_info">
+    <item>Here is 1 news!</item>
+    <item>Here is 2 news!</item>
+    <item>Here is 3 news!</item>
+    <item>Here is 4 news!</item>
+    <item>Here is 5 news!</item>
+    <item>Here is 6 news!</item>
+  </string-array>
+
+  <string-array name="foods_detail">
+    <item>11111</item>
+    <item>22222</item>
+    <item>33333</item>
+    <item>44444</item>
+    <item>55555</item>
+    <item>66666</item>
+  </string-array>
+
+  <string-array name="street_title">
+    <item>西门街</item>
+    <item>麒麟巷</item>
+    <item>文化路</item>
+    <item>荷花塘</item>
+  </string-array>
+
+  <string-array name="street_detail">
+    <item>提起西门街，没有哪个曲靖人不熟悉，就如同曲靖的南城门（有人称小天安门）。
+      如今，西门街俨然是曲靖这座工业城市中最古老的街道。走过近一个世纪的兴衰，带着
+      多少新老曲靖人的记忆与情怀，希望得以延续和保存。西门街，除了卖菜、卖奇珍异品
+      外，你还能品尝到众多曲靖特色的美味名小吃。那里你可以吃到正宗的云南名小吃，让
+      你过足吃瘾。在熙来攘往的老街上，你可以尽情地品尝曲靖的小粑粑、蒸饵丝、饵块、
+      臭豆腐、清真羊肉等，特别有名的店子诸如“大富贵”、“玉树庄”等，他们家的卤面、
+      蒸菜一定要吃。还有富源酸菜猪脚也是门庭若市。</item>
+    <item>麒麟巷位于云南省曲靖市麒麟区麒麟南路，是一条长300米的商业街，以众多的
+      酒吧、水吧、网吧、小吃店而闻名，成为当地有名的娱乐一条街，备受当地年轻人青睐，
+      号称“曲靖的三里屯”。 麒麟巷内各娱乐店铺建筑、装修颇具民族特色，其中比较有名
+      的休闲小吃店有“源一”小吃，在麒麟巷内有三家分店，为到曲靖旅游必到地方之一，每
+      天顾客爆满，吃美味需要排队。麒麟巷的夜市，总是丰富多彩的，五彩斑斓的，烤地瓜、
+      烧洋芋、胡辣子鸡脚......这些接地气的美食，还有各种酒吧、服饰、奶茶......夜
+      色中的巷子很小，却总是让人想来逛一逛。在麒麟巷的旁边，还有一个热闹的夜生活市场
+      ——曲靖老电影院里面，看电影之余，还有各种臭豆腐砂锅米线、炒粉、串串烧烤等让你
+      味蕾大开，逛吃逛玩停不下来。</item>
+    <item>位于曲靖主城区的文化路步行街，一到晚上，夜市热闹非凡，年轻人总爱到这里
+      闲逛。天色微醺，摊贩们已经就位，慕名而来的客人已经很多，随着夕阳西下，人头攒动，
+      夜市慢慢变得热闹起来，“夜经济”的狂欢也就开始了。各具地方特色的小吃应有尽有，炭
+      烤猪皮、绝味鸭脖、泡鸡脚、海南椰子……</item>
+    <item>"荷花塘是曲靖城的老地标，位于主城区，靠近麒麟公园，这条街从衣服鞋袜、居家
+      用品、手工品到零食小吃、植物是无所不有，你可以从琳琅满目的商品中淘出不少好东西。"</item>
+  </string-array>
+
+</resources>

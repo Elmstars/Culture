@@ -1,0 +1,23 @@
+{
+  "envId": "hello-cloudbase-7gnumlfk3ea295b0",
+  "region": "ap-shanghai",
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "./functions",
+  "functions": [],
+  "framework": {
+    "name": "MyCulture",
+    "plugins": {
+      "web": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "webview",
+          "cloudPath": "/mess",
+          "envVariables": {
+            "ENV_ID": "{{env.ENV_ID}}"
+          }
+        }
+      }
+    }
+  }
+}

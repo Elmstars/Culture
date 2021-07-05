@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@android:color/white">
+
+  <RadioGroup
+    android:id="@+id/main_radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/teal_700"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/main_pager"
+    app:layout_constraintVertical_weight="0">
+
+    <RadioButton
+      android:id="@+id/main_home"
+      style="@style/tab_menu_item_button"
+      android:drawableTop="@drawable/ic_home_black_24dp"
+      android:text="@string/menu_home"/>
+
+    <RadioButton
+      android:id="@+id/main_learn"
+      style="@style/tab_menu_item_button"
+      android:drawableTop="@drawable/ic_dashboard_black_24dp"
+      android:text="@string/menu_learn"/>
+
+    <RadioButton
+      android:id="@+id/main_about"
+      style="@style/tab_menu_item_button"
+      android:drawableTop="@drawable/ic_notifications_black_24dp"
+      android:text="@string/menu_about"/>
+  </RadioGroup>
+
+  <androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/main_pager"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toTopOf="@id/main_radio_group"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_weight="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="200dp"
+  android:layout_margin="8dp">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+    <ImageView
+      android:id="@+id/streetImage"
+      android:layout_width="200dp"
+      android:layout_height="match_parent"
+      android:contentDescription="@string/street_title_placeholder" />
+
+    <TextView
+      android:id="@+id/street_title"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="40dp"
+      android:layout_marginStart="40dp"
+      android:layout_toEndOf="@+id/streetImage"
+      android:layout_toRightOf="@+id/streetImage"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:text="@string/street_title_placeholder"
+      android:textSize="20sp" />
+
+    <TextView
+      android:id="@+id/street_detail"
+      style="@style/TextAppearance.AppCompat.Subhead"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/street_title"
+      android:padding="8dp"
+      android:visibility="invisible" />
+
+  </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
